@@ -12,13 +12,9 @@ public class LambdaExpressionDemo {
 		aij.add(30);
 		
 		//for integer i in integer arraylist aij 
-		for(int i:aij) {
-			
+		for(int i:aij) {	
 			System.out.println(i);
 		}
-		
-		
-		
 		
 		//Lambda Expression
 		aij.forEach((a)->System.out.println(a));

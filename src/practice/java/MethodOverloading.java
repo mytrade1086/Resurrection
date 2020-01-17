@@ -3,6 +3,8 @@ package practice.java;
 public class MethodOverloading {
 
 	public static void main(String[] args) {
+		
+		//Inside same class two methods with different arguments
 
 		MethodOverloading movl = new MethodOverloading();
 

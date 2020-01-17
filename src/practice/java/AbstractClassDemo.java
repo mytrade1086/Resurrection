@@ -7,10 +7,13 @@ public abstract class AbstractClassDemo {
 	 3.Abstract class can contain abstract and non abstract method
 	 4. Has constructor
 	 5. Object can't be created.
+	 6. variable can be declared. No need to initialize it(unlike interfaces)
 	 */
 	
 	public abstract void methodone();
 	public abstract void methodtwo();
+	
+	public int rule;
 	public  void normalMethodo() {
 	System.out.println("from abstract class");
 }

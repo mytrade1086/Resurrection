@@ -7,10 +7,14 @@ package practice.java;
  */
 public class VeryBasicOOP {
 
-	// Class Variables. Each Object will have their own copy of thsese
+	//1. Class Variables. Each Object will have their own copy of these
 	String name;
 	int age;
 	boolean isPermanent;
+	
+	static String collegeName="KITS";
+	
+	//2. Class static variable. This will remain same for every object
 
 	public static void main(String[] args) {
 
@@ -24,6 +28,10 @@ public class VeryBasicOOP {
 		System.out.println(obj.name + " : " + obj.age + " :" + obj.isPermanent); //null : 0 :false
 		System.out.println(obj2.name + " : " + obj2.age + " :" + obj2.isPermanent);//sumit : 33 :true
 		
+		
+		System.out.println(collegeName); //KITS
+		System.out.println(obj.collegeName); //Warning about static access. O/P=KITS
+		System.out.println(obj.collegeName);  //Warning about static access. O/P=KITS
 		
 
 	}
