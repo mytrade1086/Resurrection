@@ -6,8 +6,6 @@ public class ExceptionsCommon {
 	
 		
 		//1. Number Format Exception
-		
-		
 		String a="100A";
 		System.out.println(Integer.parseInt(a));  //java.lang.NumberFormatException
 				

@@ -2,6 +2,8 @@ package practice.java;
 
 public class AbstractClassNoMethodNoConstructor {
 	
+	//notice that this class having no methods still declared abstract
+	
 	int min_bal=500;
 	
 	final int activity=90;

@@ -4,6 +4,8 @@ public class ReturnNull {
 	
 	public static void main(String[] args) {
 		
+		//char,Object,String/StringBuffer would allow null as a return value
+		
 		ReturnNull rn=new ReturnNull();
 		
 		rn.name("");  //Returned null as string was empty
