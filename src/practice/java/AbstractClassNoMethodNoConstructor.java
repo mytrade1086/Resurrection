@@ -1,6 +1,6 @@
 package practice.java;
 
-public class AbstractClassNoMethodNoConstructor {
+public abstract class AbstractClassNoMethodNoConstructor {
 	
 	//notice that this class having no methods still declared abstract
 	
