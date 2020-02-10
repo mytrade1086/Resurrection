@@ -14,6 +14,8 @@ public class AbstractClassNoMethodNoConstructorMain extends AbstractClassNoMetho
 		//m.activity=300; //not allowed as activity is final variable
 		
 		System.out.println(max_Withdrawl);
+		
+		System.out.println(m.dummy); //0 default value of int
 
 	}
 

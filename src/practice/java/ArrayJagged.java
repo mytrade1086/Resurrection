@@ -1,5 +1,4 @@
 package practice.java;
-
 import java.util.Arrays;
 
 public class ArrayJagged {

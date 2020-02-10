@@ -1,5 +1,5 @@
 package practice.java;
 
-public class FinalizeDemo {
+public class iinFinalizeDemo {
 
 }

@@ -13,7 +13,6 @@ public class ArraystoString {
 		
 		
 		//Hence we can use Arrays.toString
-		
 		System.out.println(Arrays.toString(value));//[1, 2, 3, 4, 5]
 		
 		

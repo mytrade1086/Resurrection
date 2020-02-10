@@ -45,7 +45,7 @@ public class ArrayConcept {
 		char[] c = new char[3];
 		// Empty Array
 		for (int i = 0; i < c.length; i++) {
-			System.out.println(o[i]); // null null null (Default Value of char )
+			System.out.println("Dafault values "+c[i]); // blank blank blank (Default Value of char )
 
 		}
 
