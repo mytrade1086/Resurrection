@@ -4,7 +4,7 @@ public class ReturnNull {
 	
 	public static void main(String[] args) {
 		
-		//char,Object,String/StringBuffer would allow null as a return value
+		//Object,String/StringBuffer would allow null as a return value
 		
 		ReturnNull rn=new ReturnNull();
 		

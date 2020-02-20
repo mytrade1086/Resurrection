@@ -22,6 +22,9 @@ class UBS {
 		str = str.toUpperCase();
 		str.replace("TONIGHT", "today");
 		System.out.println(str);
+		
+//		101
+//		STUDYTONIGHT
 
 	}
 }
