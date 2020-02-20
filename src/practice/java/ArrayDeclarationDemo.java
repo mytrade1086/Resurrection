@@ -16,7 +16,7 @@ public class ArrayDeclarationDemo {
 			 * 0 1 2
 			 */
 		}
-		
+	
 		
 		
 		//#2
