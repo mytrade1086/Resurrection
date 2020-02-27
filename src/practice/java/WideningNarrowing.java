@@ -18,6 +18,8 @@ public class WideningNarrowing {
 		//i.e no need to write  =(double)data
 			double val=12.19;
 	//*	int j= val; //compiler shows CE and suggests writing (int)val
+			
+			
 		int i=(int)val;
 		System.out.println(i); //12
 	
