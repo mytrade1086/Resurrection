@@ -13,7 +13,7 @@ public class StringReverseWithoutvariable {
 		   name=name.substring(beginIndex)
 	   }
 	   
-	   name=
+	  System.out.println(name);
 	}
 
 }

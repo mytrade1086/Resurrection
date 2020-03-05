@@ -12,9 +12,7 @@ public class StringImmutable {
 		
 		
 		String s=new String("Sumit");
-		
 		System.out.println(s.concat("Raut")); //SumitRaut
-		
 		System.out.println(s);//Sumit
 		
 		
@@ -24,11 +22,14 @@ public class StringImmutable {
 		
 		
 		
-		String s3="same";
+		String s3="same";   //Note this is kinda of reference.New not involved
 		String s4="same";
 		
 		System.out.println(s3==s4); //  true      object comparison
 		System.out.println(s3.equals(s4));// true  content comparison
+		
+		
+		
 		
 		
 		

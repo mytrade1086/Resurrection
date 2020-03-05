@@ -19,8 +19,7 @@ public class ArrayDeclaration {
 		
 //		1 2 3 
 //		5 6 7 
-		
-		
+				
 
 		int[][] arr2 = new int[2][3];
 		for (int i = 0; i < arr2.length; i++) {
@@ -33,20 +32,14 @@ public class ArrayDeclaration {
 		int[][] arr3 = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
 		System.err.println("---Separator before two dimension 2d array");
 		for (int[] ele : arr3) {
-			for (int j : ele) {
-				
+			for (int j : ele) {			
 			System.out.print(j + " ");
 		}
-		System.out.println("");
-		
+		System.out.println("");	
 //		---Separator before two dimension 2d array
 //		1 2 3 
 //		4 5 6 
 //		7 8 9 
-		
-		
-		
-
 	}
 	}
 }
