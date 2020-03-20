@@ -8,7 +8,7 @@ public class RandomStringUtilsdemo {
 	
 	
 	public static void main(String[] args) {
-		RandomStringUtilsdemo rd=new RandomStringUtilsdemo();
+		
 		
 		System.out.println(empName("sumit"));
 		System.out.println(empSal());
