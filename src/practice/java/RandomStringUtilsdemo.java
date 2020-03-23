@@ -18,7 +18,7 @@ public class RandomStringUtilsdemo {
 
 	
 	public static String empName(String name) {
-		String generatedString = RandomStringUtils.randomAlphabetic(1);
+		String generatedString = RandomStringUtils.randomAlphabetic(3);
 		return (name+generatedString);
 	}
 
