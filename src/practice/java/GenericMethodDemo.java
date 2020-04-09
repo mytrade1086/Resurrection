@@ -3,7 +3,7 @@ package practice.java;
 public class GenericMethodDemo {
 	
 //#Problem: Loop through Array of any data type( except primitive)
-//Solun 1: Overload methos with String Array,Integer Array
+//Solution 1: Overload methods with String Array,Integer Array
 //Solun2 : Generic method . Observe E before return type and Array type.
 	
 	public <E>void loopArray(E[]str) {	
